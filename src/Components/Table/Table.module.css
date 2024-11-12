@@ -1,0 +1,87 @@
+.tableContainer {
+    width: 100%;
+    background: #FFF;
+}
+
+.tableComponent {
+    border: 1px solid #E9EDF5;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: auto;
+}
+
+.table_Thead {
+    background: rgba(247, 249, 252, 0.80);
+    backdrop-filter: blur(4px);
+}
+.tableHead{
+    color: var(--Gray-500, #687182);
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 0.36px;
+text-transform: uppercase;
+}
+.table_Thead th{
+    width: fit-content;
+    text-align: left;
+    padding: 8px 10px;
+}
+.tableComponent tr{
+    border: 1px solid #E9EDF5;
+}
+.tableDataRow{
+    width: 100%;
+    background: #FFF;
+}
+.tableDataRow td{
+    padding: 12px 10px;
+}
+.tableDataInputAction{
+    display: inline-flex;
+    gap: 10px;
+}
+.tableDataRow .tableId{
+    color: var(--Gray-900, #171C26);
+font-variant-numeric: lining-nums tabular-nums;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+.tableDataRow .projectName{
+    color: var(--Indigo-500, #5E5ADB);
+text-align: left;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 0.3px;
+}
+.tableStatus{
+    display: flex;
+padding: 2px 8px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+border-radius: 4px;
+background: var(--Green-0, #E1FCEF);
+width: fit-content;
+}
+.statusActive{
+    width: 6px;
+    height: 6px;
+    border-radius: 2px;
+background: var(--Green-400, #38A06C);
+}
+.activeSpan{
+    color: var(--Green-500, #14804A);
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 0.36px;
+}
